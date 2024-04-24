@@ -1,0 +1,102 @@
+.main-form {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(68, 68, 68);
+  font-family: sans-serif;
+}
+
+.form-box {
+  width: 25rem;
+  height: 30rem;
+  position: relative;
+  background: silver;
+  margin: 6% auto;
+  padding: 0.25rem;
+}
+
+.top-button {
+  width: 15rem;
+  margin: 1.5rem auto;
+  position: relative;
+  box-shadow: 0 0 1rem 0.5rem rgb(155, 155, 155);
+  border-radius: 1.25rem;
+}
+
+.toggle-button {
+  padding: 0.5rem 6rem;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#button {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  transition: 0.5s;
+}
+
+.input {
+  top: 10rem;
+  position: absolute;
+  width: 17.5rem;
+  transition: 0.5s;
+}
+
+.input-box {
+  width: 100%;
+  padding: 0.5rem 0rem;
+  margin: 0.25rem 0rem;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0.1rem solid black;
+  outline: none;
+  background: transparent;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem 0rem;
+  margin: 0.25rem 0rem;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0.1rem solid black;
+  outline: none;
+  background: transparent;
+}
+
+.submit-button {
+  width: 40%;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background-color: whitesmoke;
+  border: 0;
+  outline: none;
+  border-radius: 1rem;
+}
+
+#input {
+  left: 3.125rem;
+}
+
+@media screen and (max-width: 768px){
+  .form-box{
+    width: 65%;
+    padding: 35px;
+  }
+}
+  
+

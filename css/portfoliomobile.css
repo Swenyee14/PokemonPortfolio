@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(68, 68, 68);
+  font-family: sans-serif;
+}
+
+#portfolio {
+  padding: 1rem 0rem;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.portfolio-image {
+  max-width: 100%;
+}
+
+.container {
+  padding: 0.6rem 10%;
+  display: flex;
+  gap: 2rem;
+}
+
+.go-home {
+  text-align: center;
+}
