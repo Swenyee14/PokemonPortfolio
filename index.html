@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/main.css" media="screen and (min-width:769px)"/>
+    <link rel="stylesheet" href="css/mobilemain.css" media="screen and (max-width:768px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <title>Main Page</title>
+  </head>
+  <body>
+    <!-------------------------------Top header/main page------------------------------------------>
+    <div id="home">
+      <div class="container">
+        <div class="top-header">
+          <nav>
+            <img src="images/pokeball.png" class="logo" />
+            <header>
+              <ul>
+                <hgroup>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="login.php">Login</a></li>
+                  <li><a href="viewBlog.php">Blog</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </hgroup>
+              </ul>
+            </header>
+          </nav>
+        </div>
+
+        <div class="beginning-stuff">
+          <p>CS Student at QMUL</p>
+          <h1>Hi, my name is<br />Swenyee</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------About Me Section------------------------------------------>
+    <div id="about-me">
+      <div class="container">
+        <div class="row">
+          <div class="about-me-left">
+            <figure>
+              <img class="squirtle" src="images/squritle.png" />
+              <figcaption>maybe me</figcaption>
+            </figure>
+          </div>
+          <div class="about-me-right">
+            <h1 class="title">About me</h1>
+            <article>
+              <p>Insane...I know</p>
+            </article>
+
+            <!-------------------------------tabs------------------------------------------>
+            <div class="tabs">
+              <input
+                type="radio"
+                class="tabs__radio"
+                name="checker-stabiliser"
+                id="Skills and Achievements"
+                checked
+              />
+              <label for="Skills and Achievements" class="tabs__label"
+                >Skills and Achievements</label
+              >
+              <div class="tabs__content">
+                <section>
+                  <ul>
+                    <li><span>Guitar</span><br />Finished grade 8 guitar</li>
+                    <li>
+                      <span>Smurfing in League</span><br />Created a new
+                      division
+                    </li>
+                    <li><span>Deadlifts</span><br />Got 240kg</li>
+                  </ul>
+                </section>
+              </div>
+
+              <input
+                type="radio"
+                class="tabs__radio"
+                name="checker-stabiliser"
+                id="Education and Qualifications"
+              />
+              <label for="Education and Qualifications" class="tabs__label"
+                >Education</label
+              >
+              <div class="tabs__content">
+                <section>
+                  <ul>
+                    <li>
+                      <span>2020-2022</span><br />Kingbury Sixth Form - Grades
+                      AAA
+                    </li>
+                    <li>
+                      <span>2022 - ongoing</span><br />Bacholers degree in
+                      Computer Science at QMUL
+                    </li>
+                  </ul>
+                </section>
+              </div>
+
+              <input
+                type="radio"
+                class="tabs__radio"
+                name="checker-stabiliser"
+                id="Experience"
+              />
+              <label for="Experience" class="tabs__label">Experience</label>
+              <div class="tabs__content">
+                <aside>
+                  <section>
+                    <ul>
+                      <li>
+                        <span>2019</span><br />Teacher Assistant for year 7's
+                      </li>
+                      <li><span>2019 - ongoing</span><br />Housing</li>
+                      <li>
+                        <span>2022 - ongoing</span><br />Store floor assistant
+                        at WingYip
+                      </li>
+                    </ul>
+                  </section>
+                </aside>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------------------Contacts------------------------------------------>
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="title">Contact me</h1>
+            <a href="mailto:swenyeemaung@gmail.com">
+              <img class="icons" src="images/sendemail.png" alt="" /> 
+              Email me by clicking here</a
+            >
+            <p>
+              <img class="icons" src="images/newphone.png" alt="" />
+              07479076941
+            </p>
+            <div class="media-icons">
+              <a
+                href="https://instagram.com/swenyee_maung?igshid=YmMyMTA2M2Y="
+                target="_blank"
+              >
+                <img class="icons" src="images/insta.png" alt=""
+              /></a>
+            </div>
+            <a
+              class="button"
+              href="https://www.pokemon.com/uk/pokedex/squirtle"
+              target="_blank"
+              >Open to more information</a
+            >
+          </div>
+          <div class="contact-right">
+            <form>
+              <input
+                type="text"
+                name="name"
+                placeholder="Your name..."
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email..."
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your message..."
+              ></textarea>
+              <button class="button" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ending">
+      <footer>
+        <p>Copyright © Swenyee Maung</p>
+      </footer>
+    </div>
+  </body>
+</html>

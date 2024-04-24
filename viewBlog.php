@@ -24,7 +24,7 @@
       <?php }?>
 
       <div class="go-home">
-            <a href="mainpage.html">Go home</a>
+            <a href="index.html">Go home</a>
       </div>
     
         <div class="big-box">
