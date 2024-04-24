@@ -1,0 +1,35 @@
+/* removes general html base layout */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* removes default form element styles */
+input, select, textarea {
+  vertical-align: middle;
+}
+
+/* removes default button styles */
+button, input, select {
+  margin: 0%;
+  padding: 0%;
+  border: none;
+  background: none;
+  font: inherit;
+  columns: inherit;
+}
+
+/* removes default link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* removes default image sizes */
+img {
+  border: 0%;
+  size: 0%;
+}

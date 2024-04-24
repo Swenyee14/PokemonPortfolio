@@ -1,0 +1,45 @@
+fieldset {
+    background-color: rgb(239, 255, 214);
+}
+
+legend {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding-left: 210pt;
+    padding-right: 210pt;
+}
+
+input, select {
+    border: 2px solid green;
+    background-color: white;
+    padding: 1px;
+}
+
+.form-content {
+    border: 2px solid green;
+    padding: 5px;
+    margin: 5pt;
+}
+
+footer {
+    background-color: white;
+    margin: 5pt;
+    text-align: center;
+    padding: 10OX;
+}
+
+form {
+    padding: 5px;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+
+
